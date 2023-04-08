@@ -202,11 +202,13 @@ header {
     justify-content: start;
     padding: 80px 35px 40px 40px;
     background-color: var(--main-white-color);
+    z-index: 1;
   }
 
   .mob-menu-wrap ~ .close-button {
     position: fixed;
     background-color: var(--main-white-color);
+    z-index: 1;
   }
 
   .js-menu-container {
